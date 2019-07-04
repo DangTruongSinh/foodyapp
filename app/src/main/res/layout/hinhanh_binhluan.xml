@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp">
+    <ImageView
+        android:id="@+id/imgBinhLuan"
+        android:scaleType="fitXY"
+        android:src="@drawable/hinhtest"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/txtSoLuongImgConLai"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="+20"
+        android:textSize="35sp"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        />
+</FrameLayout>

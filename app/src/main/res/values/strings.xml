@@ -1,0 +1,17 @@
+<resources>
+    <string name="api_key">AIzaSyDauS3IQCnP8gNIC8uZOJZ27gd6CRwgm-c</string>
+    <string name="app_name">FoodyApp2</string>
+    <string name="version">Version</string>
+    <string name="tencongty">truongsinh.itschool</string>
+    <string name="load">loading....</string>
+    <string name="login">Đăng nhập</string>
+    <string name="hoac"> Hoặc </string>
+    <string name="facebook_app_id">606415896518583</string>
+    <string name="fb_login_protocol_scheme">fb606415896518583</string>
+    <string name="dangnhapfb">Login with facebook</string>
+    <string name="dangnhapgoogle">Đăng nhập bằng google</string>
+    <string name="failLogin">Đăng nhập thất bại</string>
+    <string name="messageLogin">Vui lòng đợi</string>
+    <string name="quenmk">Quên mật khẩu?</string>
+    <string name="dangky">Đăng ký?</string>
+</resources>

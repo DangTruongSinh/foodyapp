@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#66000000">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/foodytext"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            />
+        <EditText
+
+            android:id="@+id/edtEmailKhoiPhuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorWhite"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_perm_identity_white_24dp"
+            android:hint="Email"
+            android:drawablePadding="10dp"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            />
+
+        <Button
+            android:id="@+id/btnXacNhanEmailKhoiPhuc"
+            android:background="@drawable/custom_buttonlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Xác nhận"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            android:paddingVertical="18dp"
+
+            />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

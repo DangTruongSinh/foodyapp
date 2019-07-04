@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cd2027"
+    tools:context=".view.SlashActivity">
+
+    <ImageView
+        android:id="@+id/img_slash"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="85dp"
+        android:src="@drawable/foodytext" />
+
+    <TextView
+        android:id="@+id/txtVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="327dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="200dp"
+        android:text="Version 1.0"
+        android:textColor="#ffffff" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/txtConty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:indeterminate="true"
+            android:indeterminateTint="#ffffff"
+            android:indeterminateTintMode="src_atop" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/load"
+            android:textSize="13dp"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtConty"
+        android:text ="@string/tencongty"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

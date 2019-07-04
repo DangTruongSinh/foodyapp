@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_binhluan"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Comment"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Post"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/icon_post"
+            android:background="@color/colorPrimaryDark"
+
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:id="@+id/txtTenQuanAn"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Googi House"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/edtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the title"
+        android:backgroundTint="@color/colorPrimary"
+        />
+    <EditText
+        android:id="@+id/edtNoiDung"
+        android:backgroundTint="@color/colorWhite"
+        android:hint="Enter content your comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:layout_weight="1"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorDen">
+        <Button
+            android:id="@+id/btnTakeAPhoto"
+            android:background="@color/colorDen"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="Take a photo"
+            android:textColor="@color/colorWhite"
+            android:drawableTop="@drawable/ic_camera"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/backgroundTrangChu"
+            ></View>
+        <Button
+            android:id="@+id/btnLoadImage"
+            android:background="@color/colorDen"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="@color/colorWhite"
+            android:drawableTop="@drawable/ic_loadimage"
+            android:text="Load Image"
+            />
+    </LinearLayout>
+</LinearLayout>
